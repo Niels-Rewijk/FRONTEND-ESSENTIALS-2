@@ -5,9 +5,15 @@
 
 .menu li{
     display: inline-block;
+    padding-left: 10%;
 }
 
 .menu li a{
     background-color: lightskyblue;
     padding: 10px;
+    text-shadow: 1px 1px 10px black;
+}
+
+.menu li a:hover{
+    background-color: green;
 }
