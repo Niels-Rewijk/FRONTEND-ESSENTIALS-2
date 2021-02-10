@@ -1,5 +1,5 @@
 function geefRandomGetalTerug(randomGetal){                
-    return randomGetal = Math.random() *9 + 1; 
+    return randomGetal = Math.floor(Math.random() *9 + 1);
 }
 
 console.log(geefRandomGetalTerug());    
